@@ -102,25 +102,18 @@ body {
   font-style: normal;
 }
 
-.header-mail {
+.header-adress {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: currentColor;
 }
 
-.header-mail:is(:hover, :focus) {
+.header-adress:hover {
   color: #404bbf;
 }
 
-.header-phone {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: currentColor;
-}
-
-.header-phone:is(:hover, :focus) {
+.header-adress:focus {
   color: #404bbf;
 }
 
@@ -142,7 +135,11 @@ body {
   background-color: #4d5ae5;
 }
 
-.header-btn:is(:hover, :focus) {
+.header-btn:hover {
+  background-color: #404bbf;
+}
+
+.header-btn:focus {
   background-color: #404bbf;
 }
 
@@ -255,9 +252,17 @@ body {
   background-color: #f4f4fd;
 }
 
-.header-btn:is(:hover, :focus) {
+.header-btn:hover {
   color: #ffffff;
   background-color: #404bbf;
+}
+
+.header-btn:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+
+.portfolio-link {
 }
 
 .portfolio-subtitle {
