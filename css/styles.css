@@ -4,6 +4,7 @@
   --subtitle-color: #2e2f42;
   --background-color: #ffffff;
   --background-color-item: #ffffff;
+  --link-color: #434455;
 }
 
 body {
@@ -135,11 +136,11 @@ body {
   background-color: #4d5ae5;
 }
 
-.header-btn:hover {
+.hero-btn:hover {
   background-color: #404bbf;
 }
 
-.header-btn:focus {
+.hero-btn:focus {
   background-color: #404bbf;
 }
 
@@ -252,12 +253,12 @@ body {
   background-color: #f4f4fd;
 }
 
-.header-btn:hover {
+.portfolio-btn:hover {
   color: #ffffff;
   background-color: #404bbf;
 }
 
-.header-btn:focus {
+.portfolio-btn:focus {
   color: #ffffff;
   background-color: #404bbf;
 }
@@ -270,4 +271,5 @@ body {
 }
 
 .portfolio-text {
+  color: var(--link-color, #434455);
 }
